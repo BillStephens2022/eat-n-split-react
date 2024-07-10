@@ -1,7 +1,7 @@
+import FriendsList from "./components/FriendsList";
+import "./App.css";
 
-import './App.css';
-
-function App() {
+export default function App() {
   const initialFriends = [
     {
       id: 118836,
@@ -22,14 +22,12 @@ function App() {
       balance: 0,
     },
   ];
-  
+
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>EAT - N - SPLIT</h1>
-      </header>
+    <div className="app">
+      <div className="sidebar">
+        <FriendsList friends={initialFriends} />
+      </div>
     </div>
   );
 }
-
-export default App;
