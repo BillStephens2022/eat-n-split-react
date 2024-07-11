@@ -3,11 +3,18 @@
   ## Description
 
   A dining bill splitting application built with React that allows you to add friends and keep track of balances owed to/from each friend.  Utilizes React state & props.
+
+  Deployed url:  https://billstephens2022.github.io/eat-n-split-react/
+
+  ### App Screenshot
+  ![app screenshot](/public/screenshot.png)
   
+   
   ## Table of Contents
   
 - [Eat-N-Split](#eat-n-split)
   - [Description](#description)
+    - [App Screenshot](#app-screenshot)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
